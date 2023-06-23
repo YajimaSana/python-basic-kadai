@@ -1,0 +1,7 @@
+x = int(input())
+y = float(input())
+
+def total_price(price, tax):
+    return price * (tax + 100)/100
+
+print(total_price(x,y))
